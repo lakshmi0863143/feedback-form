@@ -24,17 +24,45 @@ class Form1(Form1Template):
   def text_box_2_pressed_enter(self, **event_args):
     """This method is called when the user presses Enter in this text box"""
     
-
-  def text_area_1_change(self, **event_args):
-    """This method is called when the text in this text area is edited"""
     
 
-  def submit_Button_click(self, **event_args):
+  def text_box_3_pressed_enter(self, **event_args):
+    """This method is called when the user presses Enter in this text box"""
+    
+
+  def text_box_4_pressed_enter(self, **event_args):
+    """This method is called when the user presses Enter in this text box"""
+    
+
+  def text_box_5_pressed_enter(self, **event_args):
+    """This method is called when the user presses Enter in this text box"""
+    
+
+  def text_box_6_pressed_enter(self, **event_args):
+    """This method is called when the user presses Enter in this text box"""
+    
+
+  def text_box_7_pressed_enter(self, **event_args):
+    """This method is called when the user presses Enter in this text box"""
+    
+
+  def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
     name = self.text_box_1.text
     email = self.text_box_2.text
-    FeedbackForm = self.text_area_1.text
-    alert('Feedback submited')
+    mobileno = self.text_box_3.text
+    universityname = self.text_box_4.text
+    collagename = self.text_box_5.text
+    idno = self.text_box_6.text
+    branch = self.text_box_7.text
+    alert('submited sucessfully')
+    
+
+
+
+
+
+
 
 
 
