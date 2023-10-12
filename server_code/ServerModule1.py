@@ -15,3 +15,14 @@ import anvil.server
 #   print("Hello, " + name + "!")
 #   return 42
 #
+@anvil.server.callable
+def add_applicationform(name, email, mobileno, universityname, collagename, idno, passoutyear):
+  app_tables.applicationform.add_row(name=name,
+                            email=email,
+                            mobileno=mobileno,
+                            universityname=universityname,
+                            collagename=collagename,
+                            idno=idno,
+                            passoutyear=passoutyear,
+                            created_on=datetime.now())
+                                 
