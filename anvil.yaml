@@ -1,5 +1,35 @@
 allow_embedding: false
 package_name: Feedback_form
+db_schema:
+  data:
+    client: none
+    server: full
+    columns:
+    - name: Name
+      admin_ui: {width: 200, order: 0}
+      type: string
+    - name: Email
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: Mobile no
+      admin_ui: {width: 200, order: 2}
+      type: string
+    - name: university name
+      admin_ui: {width: 200, order: 3}
+      type: string
+    - name: collage name
+      admin_ui: {width: 200, order: 4}
+      type: string
+    - name: ID No
+      admin_ui: {width: 200, order: 5}
+      type: number
+    - name: passout year
+      admin_ui: {width: 200, order: 6}
+      type: string
+    - name: Time and date
+      admin_ui: {width: 200, order: 7}
+      type: string
+    title: data
 name: Feedback form
 startup_form: Form1
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
